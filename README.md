@@ -1,38 +1,6 @@
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>
-	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy"></script>
-<style>
-body {
-    background-color: rgb(11, 12, 20);
-	margin-left: 150px;
-	margin-right: 150px;
-}
-img{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
-h1 {
-	color: white;
-	font-family: "Times New Roman";
-}
-h2 {
-	color: white;
-	font-family: "Times New Roman";
-}
-h3 {
-	color: white;
-	font-family: "Times New Roman";
-}
-p {
-	border-bottom-style: solid;
-	color: white;
-	font-family: "Times New Roman";
-}
-
-<title>Page Title</title>
-</style>
 </head>
 <body>
 <h1>Processamento Digital de Imagens</h1>
@@ -43,9 +11,9 @@ p {
 <p>
 Utilizando a ideia apresentada pelo professor para o exercicio <br>
 Imagem utilizada:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\jordan.jpeg" alt="Cachorro" style="width:35%"><br>
+<img src="jordan.jpeg" alt="Cachorro" style="width:35%"><br>
 Imagem de saída do programa:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\negativo.jpeg" alt="Cachorro"style="width:35%"><br>
+<img src="negativo.jpeg" alt="Cachorro"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -65,7 +33,7 @@ cv.imwrite("negativo.jpeg", img)
 <p>
 Para essa parte da atividade fora a mesma imagem do item 1.1.<br>
 Nesse caso a saída do programa foi:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\jordantrocado.png" alt="Um cachorro"style="width:35%"><br>
+<img src="jordantrocado.png" alt="cachorro"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -107,11 +75,11 @@ cv.imwrite("jordantrocado.png", img2)
 Para resolvermos o problema da contagem de objetos que seja acima de 255 podemos colocar um contador que conte quantas vezes o contador atual atingiu o 255, toda vez que atingir o 255 zera este contador, zerar o contador enquanto que armazenamos no número de vezes que ele chegou ao valor de 255, no final do laço somaríamos mais assim o contador que conta as vezes que o contador inicial chega até 255 multiplicado por 255 mais o valor do contador inicial daria o total de objetos na imagem.<br>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem de entrada:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\bolhas.png" alt="Objetos"style="width:35%"><br>
-Imagem de saída:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\bolhas2.png" alt="Objetos"style="width:35%"><br>
+<img src="bolhas.png" alt="Objetos"style="width:35%"><br>
+Imagem sem objetos na borda:<br>
+<img src="bolhas2.png" alt="Objetos"style="width:35%"><br>
 Contagem:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\contador.png" alt="Janela CMD"style="width:35%"><br>
+<img src="contador.png" alt="Janela CMD"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -165,11 +133,11 @@ cv.imwrite("bolhas3.png", imgflood)
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem utilizada:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\jordan3.jpeg" alt="cachorro"style="width:35%"><br>
+<img src="jordan3.jpeg" alt="cachorro"style="width:35%"><br>
 Imagem de saída do programa em escala de cinza a esquerda sem equalização e a direita com equalização:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\cachorros.png" alt="cachorros"style="width:35%"><br>
+<img src="cachorros.png" alt="cachorros"style="width:35%"><br>
 Histograma:<br>
-<img src="\D:\Lucas\ufrn\2021.2\pdi\exercicios\histograma.png" alt="histograma"style="width:35%"><br>
+<img src="histograma.png" alt="histograma"style="width:35%"><br>
 Código utilizado:<br>
 <pre class="prettyprint">
 <code>
