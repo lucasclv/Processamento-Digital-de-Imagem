@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>
-	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy"></script>
-<style>
-body {
-    background-color: rgb(11, 12, 20);
-	margin-left: 150px;
-	margin-right: 150px;
-}
-img{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
-h1 {
-	color: white;
-	font-family: "Times New Roman";
-}
-h2 {
-	color: white;
-	font-family: "Times New Roman";
-}
-h3 {
-	color: white;
-	font-family: "Times New Roman";
-}
-p {
-	border-bottom-style: solid;
-	color: white;
-	font-family: "Times New Roman";
-}
-
-<title>Page Title</title>
 </style>
 </head>
 <body>
