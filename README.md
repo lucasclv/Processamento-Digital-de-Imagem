@@ -128,8 +128,7 @@ cv.imwrite("bolhas3.png", imgflood)
 </code>
 </pre>
 </p>
-<h2>Atividade 3 - Equalizador de Histograma</h2>
-<h3>3.1 - Equalizador de Histograma</h3>	
+<h2>Atividade 3 - Equalizador de Histograma</h2>	
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem utilizada:<br>
