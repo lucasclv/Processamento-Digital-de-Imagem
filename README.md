@@ -181,7 +181,7 @@ plt.show()
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagens obtidas:<br>
-<img src="laplace.jpeg" alt="cachorro"style="width:35%"><br>
+<img src="laplace.png" alt="cachorro"style="width:35%"><br>
 Código utilizado:<br>
 <pre class="prettyprint">
 <code>
