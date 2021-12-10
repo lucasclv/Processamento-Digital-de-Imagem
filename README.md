@@ -177,6 +177,31 @@ plt.show()
 </code>
 </pre>
 </p>
+<h2>Atividade 4 - Laplaciano do Gaussiano</h2>	
+<p>
+Utilizando a ideia apresentada pelo professor:<br>
+Imagens obtidas:<br>
+<img src="laplace.jpeg" alt="cachorro"style="width:35%"><br>
+Código utilizado:<br>
+<pre class="prettyprint">
+<code>
+import numpy as np
+import cv2 as cv
+from matplotlib import pyplot as plt
+img = cv.imread('jordan.jpeg',0)
+laplacian = cv.Laplacian(img,cv.CV_16S,ksize=19)
+blur = cv.GaussianBlur(img,(9,9),0)
+laplacegauss = cv.Laplacian(blur,cv.CV_16S,ksize=19)
+plt.subplot(2,2,1),plt.imshow(img,cmap = 'gray')
+plt.title('Original'), plt.xticks([]), plt.yticks([])
+plt.subplot(2,2,2),plt.imshow(laplacian,cmap = 'gray')
+plt.title('Laplace'), plt.xticks([]), plt.yticks([])
+plt.subplot(2,2,3),plt.imshow(blur,cmap = 'gray')
+plt.title('Gaussiana'), plt.xticks([]), plt.yticks([])
+plt.subplot(2,2,4),plt.imshow(laplacegauss,cmap = 'gray')
+plt.title('LaPlace da Gaussiana'), plt.xticks([]), plt.yticks([])
+plt.show()
+</code>
 </pre>
 </p>
 </body>
