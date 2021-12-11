@@ -12,7 +12,7 @@ Utilizando a ideia apresentada pelo professor para o exercicio <br>
 Imagem utilizada:<br>
 <img src="jordan.jpeg" alt="Cachorro" style="width:35%"><br>
 Imagem de saída do programa:<br>
-<img src="negativo.jpeg" alt="Cachorro"style="width:35%"><br>
+<img src="negativo.jpeg" alt="Cachorronegativo"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
