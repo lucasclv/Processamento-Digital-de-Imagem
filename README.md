@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pr-br">
 <head>
 </head>
