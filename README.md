@@ -7,7 +7,6 @@
 </p>
 <h2>Atividade 1 - Negativo e Trocar Regiões na diagonal</h2>
 <h3>1.1 - Negativo</h3>
-<p>
 Utilizando a ideia apresentada pelo professor para o exercicio <br>
 Imagem utilizada:<br>
 <img src="jordan.jpeg" alt="Cachorro" style="width:35%"><br>
