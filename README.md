@@ -30,7 +30,7 @@ cv.imwrite("negativo.jpeg", img)
 <p>
 Para essa parte da atividade fora a mesma imagem do item 1.1.<br>
 Nesse caso a saída do programa foi:<br>
-<img src="jordantrocado.png" alt="cachorro"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/jordantrocado.png?raw=true" alt="cachorro"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -72,11 +72,11 @@ cv.imwrite("jordantrocado.png", img2)
 Para resolvermos o problema da contagem de objetos que seja acima de 255 podemos colocar um contador que conte quantas vezes o contador atual atingiu o 255, toda vez que atingir o 255 zera este contador, zerar o contador enquanto que armazenamos no número de vezes que ele chegou ao valor de 255, no final do laço somaríamos mais assim o contador que conta as vezes que o contador inicial chega até 255 multiplicado por 255 mais o valor do contador inicial daria o total de objetos na imagem.<br>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem de entrada:<br>
-<img src="bolhas.png" alt="Objetos"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/bolhas.png?raw=true" alt="Objetos"style="width:35%"><br>
 Imagem sem objetos na borda:<br>
-<img src="bolhas2.png" alt="Objetos"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/bolhas2.png?raw=true" alt="Objetos"style="width:35%"><br>
 Contagem:<br>
-<img src="contador.png" alt="Janela CMD"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/contador.png?raw=true" alt="Janela CMD"style="width:35%"><br>
 Código Utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -129,11 +129,11 @@ cv.imwrite("bolhas3.png", imgflood)
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem utilizada:<br>
-<img src="jordan3.jpeg" alt="cachorro"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/jordan3.jpeg?raw=true" alt="cachorro"style="width:35%"><br>
 Imagem de saída do programa em escala de cinza a esquerda sem equalização e a direita com equalização:<br>
-<img src="cachorros.png" alt="cachorros"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/cachorros.png?raw=true" alt="cachorros"style="width:35%"><br>
 Histograma:<br>
-<img src="histograma.png" alt="histograma"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/histograma.png?raw=true" alt="histograma"style="width:35%"><br>
 Código utilizado:<br>
 <pre class="prettyprint">
 <code>
@@ -177,7 +177,7 @@ plt.show()
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagens obtidas:<br>
-<img src="laplace.png" alt="cachorro"style="width:35%"><br>
+<img src="https://github.com/lucasclv/Processamento-Digital-de-Imagem/blob/main/laplace.png?raw=true" alt="cachorro"style="width:35%"><br>
 Código utilizado:<br>
 <pre class="prettyprint">
 <code>
