@@ -26,7 +26,6 @@ cv.imshow("Negativo", img)
 cv.imwrite("negativo.jpeg", img)
 </code>
 </pre>
-</p>
 <h3>1.2 - Trocar Regiões na Diagonal</h3>
 <p>
 Para essa parte da atividade fora a mesma imagem do item 1.1.<br>
