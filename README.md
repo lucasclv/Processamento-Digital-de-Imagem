@@ -202,7 +202,7 @@ plt.show()
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
 Imagem utilizada:<br>
-<img src="" alt="gato"style="width:35%"><br>
+<img src="gato.jpeg" alt="gato"style="width:35%"><br>
 Imagens obtidas:<br>
 <img src="" alt="gatokmeans1"style="width:35%"><br>
 <img src="" alt="gatokmeans2"style="width:35%"><br>
