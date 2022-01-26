@@ -225,7 +225,7 @@ Z = img.reshape((-1,3))
 # convert to np.float32
 Z = np.float32(Z)
 # define criteria, number of clusters(K) and apply kmeans() 10 times
-for x in range (0,10):
+for nrodadas in range (1,11):
 	criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 10, 1.0)
 	K = 7
 	ret,label,center=cv.kmeans(Z,K,None,criteria,10,cv.KMEANS_RANDOM_CENTERS)
