@@ -204,16 +204,16 @@ Utilizando a ideia apresentada pelo professor:<br>
 Imagem utilizada:<br>
 <img src="gato.jpeg" alt="gato"style="width:35%"><br>
 Imagens obtidas:<br>
-<img src="" alt="gatokmeans1"style="width:35%"><br>
-<img src="" alt="gatokmeans2"style="width:35%"><br>
-<img src="" alt="gatokmeans3"style="width:35%"><br>
-<img src="" alt="gatokmeans4"style="width:35%"><br>
-<img src="" alt="gatokmeans5"style="width:35%"><br>
-<img src="" alt="gatokmeans6"style="width:35%"><br>
-<img src="" alt="gatokmeans7"style="width:35%"><br>
-<img src="" alt="gatokmeans8"style="width:35%"><br>
-<img src="" alt="gatokmeans9"style="width:35%"><br>
-<img src="" alt="gatokmeans10"style="width:35%"><br>
+<img src="gatokmeans1.png" alt="gatokmeans1"style="width:35%"><br>
+<img src="gatokmeans2.png" alt="gatokmeans2"style="width:35%"><br>
+<img src="gatokmeans3.png" alt="gatokmeans3"style="width:35%"><br>
+<img src="gatokmeans4.png" alt="gatokmeans4"style="width:35%"><br>
+<img src="gatokmeans5.png" alt="gatokmeans5"style="width:35%"><br>
+<img src="gatokmeans6.png" alt="gatokmeans6"style="width:35%"><br>
+<img src="gatokmeans7.png" alt="gatokmeans7"style="width:35%"><br>
+<img src="gatokmeans8.png" alt="gatokmeans8"style="width:35%"><br>
+<img src="gatokmeans9.png" alt="gatokmeans9"style="width:35%"><br>
+<img src="gatokmeans10.png" alt="gatokmeans10"style="width:35%"><br>
 Podemos observar que as imagens resultantes são diferentes pois cada rodada do codigo o ponto inicial utilizado na clusterização muda
 Código utilizado:<br>
 <pre class="prettyprint">
