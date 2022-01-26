@@ -198,6 +198,8 @@ plt.subplot(2,2,4),plt.imshow(laplacegauss,cmap = 'gray')
 plt.title('LaPlace da Gaussiana'), plt.xticks([]), plt.yticks([])
 plt.show()
 </code>
+</pre>
+</p>
 <h2>Atividade 9 - Kmeans</h2>	
 <p>
 Utilizando a ideia apresentada pelo professor:<br>
